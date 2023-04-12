@@ -2,7 +2,14 @@
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ka1-00923&theme=aura_dark)
 
+#### My Skills
+[![My Skills](https://skillicons.dev/icons?i=python,blender,arduino)](https://skillicons.dev)
 
+- Python => about 7~8 years.
+- Blender => 1 months.
+- Arduino => about 4 years.
+
+![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=ka1-00923&theme=aura_dark)
 <!--
 **ka1-00923/ka1-00923** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
