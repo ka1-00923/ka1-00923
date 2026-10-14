@@ -10,24 +10,25 @@ Building software, exploring systems, and creating digital experiences.
 
 ### Activity
 
+### Activity
+
 <p align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="./profile-summary-card-output/github_dark/0-profile-details.svg"
+      srcset="./profile-summary-card-output/custom_dark/0-profile-details.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="./profile-summary-card-output/github/0-profile-details.svg"
+      srcset="./profile-summary-card-output/custom_light/0-profile-details.svg"
     />
     <img
-      src="./profile-summary-card-output/github_dark/0-profile-details.svg"
+      src="./profile-summary-card-output/custom_dark/0-profile-details.svg"
       width="100%"
       alt="GitHub Activity"
     />
   </picture>
 </p>
-
 ---
 
 ### Selected Work
