@@ -10,8 +10,6 @@ Building software, exploring systems, and creating digital experiences.
 
 ### Activity
 
-### Activity
-
 <p align="center">
   <picture>
     <source
@@ -29,6 +27,7 @@ Building software, exploring systems, and creating digital experiences.
     />
   </picture>
 </p>
+
 ---
 
 ### Selected Work
