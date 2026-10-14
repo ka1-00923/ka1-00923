@@ -19,14 +19,35 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Generate profile cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
-              USERNAME: ka1-00923
-              BRANCH_NAME: main
-              UTC_OFFSET: 9
-              THEME: ""
-              ANIMATION: none
+          USERNAME: ka1-00923
+          BRANCH_NAME: main
+          UTC_OFFSET: 9
+          THEME: ""
+          ANIMATION: none
+          AUTO_PUSH: false
+
+      - name: Apply custom theme
+        run: python3 .github/scripts/theme_profile_cards.py
+
+      - name: Commit and push cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile-summary-card-output/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update themed profile cards"
+          git push origin HEAD:main
