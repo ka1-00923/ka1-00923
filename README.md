@@ -1,8 +1,23 @@
 # Kai Endo / ichika9023
 
-<p align="left">
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="65%" alt="GitHub Activity" />
-</p>
+### Activity
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile-summary-card-output/github_dark/0-profile-details.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./profile-summary-card-output/github/0-profile-details.svg"
+  />
+  <img
+    src="./profile-summary-card-output/github/0-profile-details.svg"
+    width="65%"
+    alt="GitHub Activity"
+  />
+</picture>
+
 
 **Software Engineer / Creator**  
 Building software, exploring systems, and creating digital experiences.
