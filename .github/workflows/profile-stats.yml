@@ -25,6 +25,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
-          USERNAME: ka1-00923
-          BRANCH_NAME: main
-          UTC_OFFSET: 9
+              USERNAME: ka1-00923
+              BRANCH_NAME: main
+              UTC_OFFSET: 9
+              THEME: ""
+              ANIMATION: none
